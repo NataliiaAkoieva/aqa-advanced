@@ -1,5 +1,5 @@
-import { Book } from "./book.js";
-import { EBook } from "./EBook.js";
+import { Book } from './Book.js';
+import { EBook } from './EBook.js';
 
 //task 1
 const book1 = new Book('To Kill a Mockingbird', 'Harper Lee', 1960);
@@ -43,11 +43,11 @@ console.log();
 const books = [book1, book2, ebook1, ebook2];
 const oldestBook = Book.oldestBook(books);
 
-console.log("The oldest book:");
+console.log('The oldest book:');
 oldestBook.printInfo();
 console.log();
 
 //task 5
-const ebookFromBook = EBook.ebookFromBook(book2, "TXT");
-console.log("Converted to EBook:");
+const ebookFromBook = EBook.ebookFromBook(book2, 'TXT');
+console.log('Converted to EBook:');
 ebookFromBook.printInfo();
