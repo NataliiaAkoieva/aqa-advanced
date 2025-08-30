@@ -1,1 +1,11 @@
 node_modules
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sqlite
+VSWorkspaceState.json
+*.log
+.DS_Store
+Thumbs.db
